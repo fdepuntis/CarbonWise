@@ -1,0 +1,94 @@
+.all {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e5e9d5;
+    font-family: 'Raleway', sans-serif;
+}
+
+.first-texte-acceuil {
+    text-align: center;
+    color: #3b1914;
+}
+
+.div-img-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #4e7151;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.navbar-choix {
+    flex: 1;
+}
+
+.navbar-choix::after {
+    background-color: #82b286;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.form-box {
+    padding: 50px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #4e7151;
+}
+
+.center-box {
+    padding-top: 200px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    color: white;
+    padding: 10px;
+    
+}
+
+label {
+    color: white;
+}
+
+.bonton-co {
+    border: 1px white solid;
+    border-radius: 4px;
+    padding: 4px;
+}
+.links {
+    text-align: center;
+    padding: 5px;
+}
+
+.login-form {
+    padding: 10px;
+    border-left: 1px white solid;
+}
+
+input {
+    width: 95%;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+input {
+    height: 25px;
+}
