@@ -1,23 +1,509 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Carbon Wise</title>
-    <link rel="stylesheet" type="text/css" href="./formulaire.css">
-    <link rel="icon" type="image/png" href="../src/arbre.png">
-</head>
-<body class="all">
+    <link rel="stylesheet" type="text/css" href="./formulaire.css" />
+    <link rel="icon" type="image/png" href="../src/arbre.png" />
+  </head>
+  <body class="all">
     <div class="navbar">
-        <a href="../accueil.html" class="navbar-choix">Accueil</a>
-        <a href="../formulaire/formulaire.html" class="navbar-choix">Formulaire</a>
-        <a href="../codeBarre/codeBarre.html" class="navbar-choix">Code barre</a>
-        <a href="../GPS/gps.html" class="navbar-choix">GPS</a>
-        <a href="../guide/guide.html" class="navbar-choix">Guide</a>
+      <a href="../accueil.html" class="navbar-choix">Accueil</a>
+      <a href="../formulaire/formulaire.html" class="navbar-choix"
+        >Formulaire</a
+      >
+      <a href="../codeBarre/codeBarre.html" class="navbar-choix">Code barre</a>
+      <a href="../GPS/gps.html" class="navbar-choix">GPS</a>
+      <a href="../guide/guide.html" class="navbar-choix">Guide</a>
+      <a href="../login.html" class="navbar-choix">Deconnexion</a>
     </div>
-    <div>
-        Formulaire
-    </div>
+    <div class="center">
+      <div class="center-div">
+        <form action="" method="POST">
+          <div class="field input">
 
-    
-</body>
+            <h1>transport</h1>
+
+            <label class="question" for="email">
+              Quelle distance parcourez-vous en véhicule motorisé chaque année ?
+            </label>
+            <div class="flex-d">
+              <div class="flex-d-r">
+                <label class="reponse" for="r1">
+                <input type="radio" id="r1" name="question1" value="1" />
+                0 Km</label>
+              </div>
+              <div class="flex-d-r">
+                <label class="reponse" for="r2">
+                <input type="radio" id="r2" name="question1" value="0.5" />
+                   Entre 1 - 10 000 Km</label>
+              </div>
+              <div class="flex-d-r">
+                <label class="reponse" for="r3">
+                <input type="radio" id="r3" name="question1" value="0" />
+                Plus de 10 0000 Km</label>
+              </div>
+            </div>
+
+
+            <label class="question" for="email">
+                Type de carburant utilisé ? 
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="r4">
+                  <input type="radio" id="r4" name="question2" value="1" />
+                  Essence</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r5">
+                  <input type="radio" id="r5" name="question2" value="0.5" />
+                  Gasoil</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r6">
+                  <input type="radio" id="r6" name="question2" value="0" />
+                  Electricité</label>
+                </div>
+              </div>
+
+
+              <label class="question" for="email">
+                Combien d'heures passez-vous dans les transports en commun par semaine ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="r7">
+                  <input type="radio" id="r7" name="question3" value="1" />
+                  0</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r8">
+                  <input type="radio" id="r8" name="question3" value="0.5" />
+                  5</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r9">
+                  <input type="radio" id="r9" name="question3" value="0" />
+                  10</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r10">
+                  <input type="radio" id="r10" name="question3" value="0" />
+                  plus de 10</label>
+                </div>
+              </div>
+
+
+              <label class="question" for="email">
+                Qu’utilisez-vous comme moyen de transport pour partir en vacances ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="a7">
+                  <input type="radio" id="a7" name="question4" value="1" />
+                  Voiture</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="a8">
+                  <input type="radio" id="a8" name="question4" value="0.5" />
+                  Bateau</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="a9">
+                  <input type="radio" id="a9" name="question4" value="0" />
+                  Avion</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="a10">
+                  <input type="radio" id="a10" name="question4" value="0" />
+                  Train</label>
+                </div>
+              </div>
+
+
+              <label class="question" for="email">
+                Quels sont vos modes de déplacements efficaces ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="z7">
+                  <input type="radio" id="z7" name="question5" value="1" />
+                  aucun</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="z8">
+                  <input type="radio" id="z8" name="question5" value="0.5" />
+                  A pieds</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="z9">
+                  <input type="radio" id="z9" name="question5" value="0" />
+                  Avion</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="z10">
+                  <input type="radio" id="z10" name="question5" value="0" />
+                  Train</label>
+                </div>
+              </div>
+
+              <h1>alimentation</h1>
+              <label class="question" for="email">
+                Quels sont vos types de repas pour déjeuner ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="e7">
+                  <input type="radio" id="e7" name="question6" value="1" />
+                  Entrée, plat dessert + viande</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="e8">
+                  <input type="radio" id="e8" name="question6" value="0.5" />
+                  Vegan</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="e9">
+                  <input type="radio" id="e9" name="question6" value="0" />
+                  Végétarien</label>
+                </div>
+              </div>
+
+
+              <label class="question" for="email">
+                Comment estimeriez-vous la quantité de déchets que vous jetez ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="r7">
+                  <input type="radio" id="r7" name="question7" value="1" />
+                  petite</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r8">
+                  <input type="radio" id="r8" name="question7" value="0.5" />
+                  moyenne</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="r9">
+                  <input type="radio" id="r9" name="question7" value="0" />
+                  grande</label>
+                </div>
+              </div>
+
+
+
+              <label class="question" for="email">
+                Buvez-vous l'eau en bouteille ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="t7">
+                  <input type="radio" id="t7" name="question8" value="1" />
+                  oui</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="t8">
+                  <input type="radio" id="t8" name="question8" value="0.5" />
+                  non</label>
+                </div>
+              </div>
+
+
+
+
+              <label class="question" for="email">
+                Consommation par semaine de boissons (sodas, jus de fruits, alcool, café…) ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="t7">
+                  <input type="radio" id="t7" name="question9" value="1" />
+                  Entre 0 et 5 L</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="t8">
+                  <input type="radio" id="t8" name="question9" value="0.5" />
+                  Entre 5 et 10 L</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="t9">
+                  <input type="radio" id="t9" name="question9" value="0.5" />
+                  Plus de 10 L</label>
+                </div>
+              </div>
+
+
+              <label class="question" for="email">
+                Quelle est votre fréquence de consommation de viande ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="y7">
+                  <input type="radio" id="y7" name="question10" value="1" />
+                  Quotidienne</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="y8">
+                  <input type="radio" id="y8" name="question10" value="0.5" />
+                  Hebdomadaire</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="y9">
+                  <input type="radio" id="y9" name="question10" value="0.5" />
+                  Jamais</label>
+                </div>
+              </div>
+
+
+              <h1>Logement</h1>
+              <label class="question" for="email">
+                Quelle est la surface de votre logement ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="u7">
+                  <input type="radio" id="u7" name="question11" value="1" />
+                  Entre 0 et 20</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="u8">
+                  <input type="radio" id="u8" name="question11" value="0.5" />
+                  Entre 20 et 50 </label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="u9">
+                  <input type="radio" id="u9" name="question11" value="0.5" />
+                  Entre 50 et 100</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="u10">
+                  <input type="radio" id="u10" name="question11" value="0.5" />
+                  Plus de 100</label>
+                </div>
+              </div>
+
+
+
+
+              <label class="question" for="email">
+                Quel est son âge ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="i7">
+                  <input type="radio" id="i7" name="question12" value="1" />
+                  Entre 0 et 20</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="i8">
+                  <input type="radio" id="i8" name="question12" value="0.5" />
+                  Entre 20 et 40 </label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="i9">
+                  <input type="radio" id="i9" name="question12" value="0.5" />
+                  Entre 40 et 60</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="i10">
+                  <input type="radio" id="i10" name="question12" value="0.5" />
+                  Plus de 60 ans</label>
+                </div>
+              </div>
+
+
+
+              <label class="question" for="email">
+                Quel type d’énergie utilisez-vous pour chauffer/climatiser votre logement ... ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="o7">
+                  <input type="radio" id="o7" name="question13" value="1" />
+                  Electricité</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="o8">
+                  <input type="radio" id="o8" name="question13" value="0.5" />
+                  Gaz</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="o9">
+                  <input type="radio" id="o9" name="question13" value="0.5" />
+                  Fioul</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="o10">
+                  <input type="radio" id="o10" name="question13" value="0.5" />
+                  Bois</label>
+                </div>
+              </div>
+
+
+
+
+              <label class="question" for="email">
+                Quelle est la consommation annuelle d'électricité de votre foyer en euro ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="p7">
+                  <input type="radio" id="p7" name="question14" value="1" />
+                  entre 0 et 500 </label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="p8">
+                  <input type="radio" id="p8" name="question14" value="0.5" />
+                  Entre 500 et 1000</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="p9">
+                  <input type="radio" id="p9" name="question14" value="0.5" />
+                  Plus de 1000</label>
+                </div>
+              </div>
+
+
+
+
+
+              <label class="question" for="email">
+                Avez-vous une piscine ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="m7">
+                  <input type="radio" id="m7" name="question15" value="1" />
+                  oui</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="m8">
+                  <input type="radio" id="m8" name="question15" value="0.5" />
+                  non</label>
+                </div>
+              </div>
+
+
+
+              <label class="question" for="email">
+                Quelle est la fréquence de shopping / achats de produits d'hygiène par mois ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="n7">
+                  <input type="radio" id="n7" name="question16" value="1" />
+                  Moins de 2 ans </label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="n8">
+                  <input type="radio" id="n8" name="question16" value="0.5" />
+                  Entre 2 et 5 ans</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="n9">
+                  <input type="radio" id="n9" name="question16" value="0.5" />
+                  Plus de 5 ans</label>
+                </div>
+              </div>
+
+
+
+              <label class="question" for="email">
+                Quel est l’âge moyen de vos appareils électroniques ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="b7">
+                  <input type="radio" id="b7" name="question17" value="1" />
+                  Moins de 2 ans </label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="b8">
+                  <input type="radio" id="b8" name="question17" value="0.5" />
+                  Entre 2 et 5 ans</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="b9">
+                  <input type="radio" id="b9" name="question17" value="0.5" />
+                  Plus de 5 ans</label>
+                </div>
+              </div>
+
+
+
+              <label class="question" for="email">
+                Combien d'heures passez-vous sur internet par jour en dehors de votre travail ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="v7">
+                  <input type="radio" id="v7" name="question18" value="1" />
+                  Entre 0 et 2 heures</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="v8">
+                  <input type="radio" id="v8" name="question18" value="0.5" />
+                  Entre 2 et 5 heures</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="v9">
+                  <input type="radio" id="v9" name="question18" value="0.5" />
+                  Plus de 5 heures</label>
+                </div>
+              </div>
+
+
+
+              <label class="question" for="email">
+                Avez-vous des animaux ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="w7">
+                  <input type="radio" id="w7" name="question19" value="1" />
+                  Non</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="w8">
+                  <input type="radio" id="w8" name="question19" value="0.5" />
+                  Non</label>
+                </div>
+              </div>
+
+
+              <label class="question" for="email">
+                Quelle est votre consommation de tabac par jour ?
+              </label>
+              <div class="flex-d">
+                <div class="flex-d-r">
+                  <label class="reponse" for="x7">
+                  <input type="radio" id="x7" name="question20" value="1" />
+                  0</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="x8">
+                  <input type="radio" id="x8" name="question20" value="0.5" />
+                  1 paquet</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="x9">
+                  <input type="radio" id="x9" name="question20" value="0.5" />
+                  2 paquets</label>
+                </div>
+                <div class="flex-d-r">
+                  <label class="reponse" for="x10">
+                  <input type="radio" id="x10" name="question20" value="0.5" />
+                  plus de 2 </label>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
