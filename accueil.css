@@ -17,6 +17,15 @@
     justify-content: center;
 }
 
+.div-img-marques
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 .navbar {
     padding: 10px;
     background-color: #4e7151;
