@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap') format('woff2');
+    font-style: normal;
+}
+
 .all {
     margin: 0;
     width: 100%;
