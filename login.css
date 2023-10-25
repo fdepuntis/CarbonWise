@@ -92,3 +92,31 @@ input {
 input {
     height: 25px;
 }
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+}

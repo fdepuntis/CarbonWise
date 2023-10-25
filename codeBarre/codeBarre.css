@@ -16,12 +16,8 @@
     display: flex;
     justify-content: center;
 }
-.div-img-marques{
-    width: 100%;
-    height:50%;
-    display: flex;
-    justify-content: center;
-}
+
+
 .navbar {
     padding: 10px;
     background-color: #4e7151;
@@ -43,4 +39,50 @@ a {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+}
+
+.div-img-marques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img {
+    flex: 1;
+    max-width: 300px; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
+    margin: 10px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
 }

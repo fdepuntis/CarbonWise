@@ -17,11 +17,21 @@
     justify-content: center;
 }
 
-.div-img-marques
-{
-    width: 100%;
+.div-img-marques {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img2 {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.img2 img {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -47,4 +57,33 @@ a {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+}
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
 }

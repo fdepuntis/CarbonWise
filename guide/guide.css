@@ -39,3 +39,41 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.text-all {
+    margin-right: 100px;
+    margin-left: 100px;
+}
